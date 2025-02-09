@@ -1,8 +1,10 @@
 package com.example.bagicschedule.dto;
 
-public class scheduleRequsetDto {
+import lombok.Getter;
 
-    private Long id;
+@Getter
+public class ScheduleRequestDto {
+
     private String name;
     private String todo;
 
